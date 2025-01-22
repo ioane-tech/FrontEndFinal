@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/section1.css">
+    <link rel="stylesheet" href="./css/section2.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <title>Frontend Final Project</title>
+</head>
+<body>
+    <!--header sale-->
+    <div class="header_sale">
+        <p>
+            Sign up and get 20% off to your first order. <bold style="text-decoration: underline;">Sign Up Now</bold>
+        </p>
+        <img id="closeButton" class="close_button" src="./assets/icons/closeButton.png" alt="close buttn">
+    </div>
+
+    <!--navbar-->
+    <nav class="navbar_container">
+        
+        <img class="logo" src="./assets/images/logo.png" alt="page logo">
+        <button>Shop</button>
+        <button>On Sale</button>
+        <button>New Arrivals</button>
+        <button>Brands</button>
+
+        <button id="menu_icon">☰</button>
+
+        <input type="search" placeholder="Search for products...">
+        <img id="cart" style="cursor: pointer; margin-left: auto; margin-right: 30px;" src="./assets/icons/navbarShop.png" alt="cart and profile icons">
+    </nav>
+
+    <!--section 1 advertisement-->
+    <div class="section_1_container">
+        <div class="section_1_text_container">
+            <p class="section_1_header">FIND CLOTHES THAT MATCHES YOUR STYLE</p>
+            <p class="section_1_paragraph">
+                Browse through our diverse range of meticulously crafted 
+                garments, designed to bring out your individuality and cater to your sense of style.
+            </p>
+            <a href="#productsSection">Shop Now</a>
+
+            <div class="section_1_counts_container">
+                <div style="border-right: 1px solid gray;">
+                    <p>200+</p>
+                    <span>International Brands</span>
+                </div>
+                <div style="border-right: 1px solid gray;">
+                    <p>2,000+</p>
+                    <span>High-Quality Products</span>
+                </div>
+                <div>
+                    <p>30,000+</p>
+                    <span>Happy Customers</span>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/images/section1Image.png" alt="section 1, advertisement image">
+    </div>
+    <div class="section_1_footer">
+        <div>
+            <img src="./assets/images/versace.png" alt="versace logo">
+            <img src="./assets/images/calvinKlein.png" alt="calvin klein logo">
+        </div>
+
+        <div style='justify-content: center; gap: 50px'>
+            <img src="./assets/images/zara.png" alt="zara logo">
+            <img src="./assets/images/gucci.png" alt="gucci logo">
+            <img src="./assets/images/prada.png" alt="prada logo">
+        </div>
+    </div>
+
+    <!--section 2 products-->
+    <div class="section_2_container" id="productsSection">
+        <h2>NEW ARRIVALS</h2>
+
+        <div class="products_container">
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer_container">
+        <div>
+            <img style="margin-bottom: 20px;" src="./assets/images/logo.png" alt="footer logo">
+            <p style="width: 248px;">We have clothes that suits your style and which you&apos;re proud to wear. From women to men.</p>
+            <div style="display: flex; gap: 10px; cursor: pointer;">
+                <img src="./assets/icons/twiter.png" alt="twiter icon">
+                <img src="./assets/icons/facebook.png" alt="facebook icon">
+                <img src="./assets/icons/insta.png" alt="instagram icon">
+                <img src="./assets/icons/git.png" alt="git icon">
+            </div>
+        </div>
+
+        <div>
+            <h4>COMPANY</h4>
+            <p>About </p>         
+            <p>Features</p>
+            <p>Works</p>       
+            <p>Career</p>   
+        </div>
+
+        <div>
+            <h4>HELP</h4>
+            <p>Customer Support</p>
+            <p>Delivery Details</p>
+            <p>Terms & Conditions </p>         
+            <p>Privacy Policy</p>
+        </div>
+
+        <div>
+            <h4>FAQ</h4>
+            <p>Account</p>
+            <p>Orders</p>         
+            <p>Payments</p>
+            <p>Manage Deliveries</p>
+        </div>
+
+        <div>
+            <h4>RESOURCES</h4>
+            <p>Free eBooks</p>
+            <p>Development Tutorial</p>         
+            <p>How to - Blog</p>
+            <p>Youtube Playlist</p>
+        </div>
+    </div>
+
+    
+    <script src="./App.js"></script>
+</body>
+</html>

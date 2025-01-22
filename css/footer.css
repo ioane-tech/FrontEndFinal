@@ -1,0 +1,27 @@
+.footer_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F0F0F0;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.footer_container > div > h4{
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+}
+.footer_container > div > p {
+    color: rgba(0, 0, 0, 60%);
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #F0F0F0;
+    transition: 0.3s;
+}
+.footer_container > div > p:hover {
+    border-color: rgba(0, 0, 0, 60%);
+    transition: 0.3s;
+}
