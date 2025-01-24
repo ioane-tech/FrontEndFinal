@@ -1,0 +1,39 @@
+.section_2_container > h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+
+    margin-top: 80px;
+}
+
+.products_container{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+}
+.each_product_container{
+    width: 295px;
+}
+.each_product_container > h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.each_product_container > span {
+    font-size: 14px;
+}
+.each_product_container > p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.each_product_container > img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: #F0EEED;
+}
